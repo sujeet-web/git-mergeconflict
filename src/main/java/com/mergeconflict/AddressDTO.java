@@ -4,6 +4,7 @@ public class AddressDTO {
 
     private String addressId;
     private String houseNumber;
+    private String street1;
     private String street;
     private String city;
     private String state;
