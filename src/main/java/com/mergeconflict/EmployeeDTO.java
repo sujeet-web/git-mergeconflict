@@ -6,6 +6,7 @@ public class EmployeeDTO {
     private Long id;
     private String name;
     private String name2;
+    private String name1;
     private String department;
     private Double salary;
 
