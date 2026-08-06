@@ -5,6 +5,7 @@ public class EmployeeDTO {
     private String employeeId;;      // Unique for every request
     private Long id;
     private String name;
+    private String name2;
     private String department;
     private Double salary;
 
