@@ -4,6 +4,7 @@ public class CustomerRequest {
 
     private String customerId;;
     private String firstName;
+    private String middleName;
     private String lastName;
     private String email;
     private String phoneNumber;
