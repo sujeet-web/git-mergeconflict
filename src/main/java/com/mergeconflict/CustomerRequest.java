@@ -8,6 +8,7 @@ public class CustomerRequest {
     private String middleName;
     private String lastName;
     private String surName;
+    private String email2;
     private String email;
     private String phoneNumber;
     private Integer age;
