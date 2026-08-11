@@ -14,6 +14,7 @@ public class CustomerRequest {
     private String email4;
     private String email;
     private String phoneNumber1;
+    private String phoneNumber2;
     private String phoneNumber;
     private Integer age;
 
