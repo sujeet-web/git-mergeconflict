@@ -8,6 +8,7 @@ public class EmployeeDTO {
     private String name3;
     private String name2;
     private String name1;
+    private String department2;
     private String department1;
     private String department;
     private Double salary;
