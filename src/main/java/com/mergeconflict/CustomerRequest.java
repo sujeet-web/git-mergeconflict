@@ -4,6 +4,7 @@ public class CustomerRequest {
 
     private String customerId;;
     private String firstName2;
+    private String firstName1;
     private String firstName;
     private String newName;
     private String middleName;
