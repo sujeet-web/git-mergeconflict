@@ -3,6 +3,7 @@ package com.mergeconflict;
 public class AddressDTO {
 
     private String addressId;
+    private String houseNumber3;
     private String houseNumber2;
     private String houseNumber1;
     private String houseNumber;
