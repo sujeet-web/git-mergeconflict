@@ -18,6 +18,7 @@ public class EmployeeDTO {
     private String department1;
     private String department;
     private Double salary2;
+    private Double salary1;
     private Double salary;
 
 
