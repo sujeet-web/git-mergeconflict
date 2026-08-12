@@ -91,3 +91,5 @@ Local rename ≠ Remote rename
 
 You need to push the new branch (and normally delete the old remote branch) to make the remote
 repository match.
+
+End
