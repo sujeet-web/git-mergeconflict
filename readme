@@ -1,0 +1,93 @@
+After rename feature branch in your local and when you are trying to push to GitHub remote and
+rename branch is not reflecting in the GitHub remote the use the below command and check
+GitHub remote.
+
+1.git push -u origin feature/branch_new1
+-u is just the short form of --set-upstream.
+2.delete the old branch GitHub remote
+git push origin --delete feature/branch
+==============================================================
+How to Rename a Git Branch (Local & Remote) — The Right Way
+https://www.youtube.com/watch?v=ZZQKMPLnWaM
+
+Q.This below command is mandatory?
+git push --set-upstream origin feature/branch_new1
+A.No, the exact command is not mandatory. But after renaming a local branch, you need to push
+the new branch to the remote and set its upstream if you want normal
+git push / git pull behavior.
+
+Recommended
+git push --set-upstream origin feature/branch_new1
+This does two things:
+1.Creates feature/branch_new1 in the Git remote.
+2.Connects your local branch to that remote branch.
+
+After that, you can simply do:
+git push
+git pull
+
+Without --set-upstream
+You can also do:
+git push origin feature/branch_new1
+
+This pushes the branch, but it may not set the tracking/upstream relationship. You may then
+need to specify the branch again for future pushes.
+
+For your case
+Since you renamed:
+
+feature/branch
+       ↓
+feature/branch_new1
+
+I recommend:
+git push -u origin feature/branch_new1
+-u is just the short form of --set-upstream.
+
+Then your relationship becomes:
+
+Local                              Remote
+feature/branch_new1  ──────────→  origin/feature/branch_new1
+
+After verifying the new branch is correct, you can delete the old remote branch if it's no longer
+needed:
+git push origin --delete feature/branch
+So, mandatory? No. Recommended in your situation? Yes.
+
+Q.once we rename the feature branch in local it is possible to automatically changes the same
+branch in Git Repo?
+A.Yes, it is possible, but it depends on how you rename it.
+
+If you rename only the local branch
+For example:
+Old local:  feature/branch
+New local:  feature/branch_new1
+
+GitHub will not automatically rename the remote branch just because you renamed your local branch.
+You will have:
+Local:
+feature/branch_new1
+
+Remote:
+origin/feature/branch
+
+That's what happened in your screenshot.
+
+To rename both correctly
+After renaming the local branch, push the new branch and set its upstream:
+git push --set-upstream origin feature/branch_new1
+
+Then, if the old remote branch is no longer needed:
+git push origin --delete feature/branch
+
+One exception
+
+If you rename a branch directly on GitHub, GitHub can handle the remote branch rename and may
+provide/update references for you. But renaming the branch locally in IntelliJ does not by itself
+ rename the GitHub branch.
+
+So remember:
+Local rename ≠ Remote rename
+
+You need to push the new branch (and normally delete the old remote branch) to make the remote
+repository match.
