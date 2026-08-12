@@ -7,6 +7,7 @@ public class CustomerRequest {
     private String firstName1;
     private String firstName;
     private String newName;
+    private String middleName1;
     private String middleName;
     private String lastName;
     private String surName;
