@@ -4,6 +4,7 @@ public class EmployeeDTO {
 
     private String employeeId;;      // Unique for every request
     private Long id;
+    private String name7;
     private String name6;
     private String name;
     private String name3;
