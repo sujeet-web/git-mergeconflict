@@ -1,6 +1,13 @@
 After rename feature branch in your local and when you are trying to push to GitHub remote and
 rename branch is not reflecting in the GitHub remote the use the below command and check
-GitHub remote.
+GitHub remote.and same if you are rename feature branch in GitHub remote and same branch you are going
+to use in your local branch and you did some changes in file or you created some extra classes,then
+you need to commit and push feature branch so pushing feature branch use below command
+git push -u origin feature/branch_new1
+because sometimes IntelliJ push command doesn't work,and then raise
+PR(pul request from GitHub remote) and your old branch still will be there then you need to delete
+manually from GitHub remote,because you created new branch by GitHub remote.
+
 
 1.git push -u origin feature/branch_new1
 -u is just the short form of --set-upstream.
@@ -91,3 +98,5 @@ Local rename ≠ Remote rename
 
 You need to push the new branch (and normally delete the old remote branch) to make the remote
 repository match.
+
+End
