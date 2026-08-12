@@ -13,6 +13,7 @@ public class EmployeeDTO {
     private String name4;
     private String name1;
     private String department2;
+    private String department6;
     private String department4;
     private String department3;
     private String department1;

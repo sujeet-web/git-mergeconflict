@@ -10,6 +10,7 @@ public class CustomerRequest {
     private String middleName2;
     private String middleName1;
     private String middleName;
+    private String lastName2;
     private String lastName;
     private String surName;
     private String email1;
