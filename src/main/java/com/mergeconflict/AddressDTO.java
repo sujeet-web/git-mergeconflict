@@ -24,6 +24,7 @@ public class AddressDTO {
     private String country1;
     private String country;
     private String zipCode;
+    private String zipCode1;
 
     public AddressDTO() {
     }
