@@ -26,6 +26,7 @@ public class CustomerRequest {
     private Integer age1;
     private Integer age2;
     private Integer age3;
+    private Integer age4;
 
     public CustomerRequest() {
     }
