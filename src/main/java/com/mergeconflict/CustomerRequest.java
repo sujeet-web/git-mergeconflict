@@ -23,6 +23,8 @@ public class CustomerRequest {
     private String phoneNumber2;
     private String phoneNumber;
     private Integer age;
+    private Integer age1;
+    private Integer age2;
 
     public CustomerRequest() {
     }
