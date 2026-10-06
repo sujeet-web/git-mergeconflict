@@ -18,6 +18,7 @@ public class AddressDTO {
     private String state2;
     private String state1;
     private String state4;
+    private String state3;
     private String state;
     private String country3;
     private String country4;
@@ -26,7 +27,6 @@ public class AddressDTO {
     private String country;
     private String zipCode;
     private String zipCode1;
-    private String zipCode2;
 
     public AddressDTO() {
     }
