@@ -26,6 +26,7 @@ public class AddressDTO {
     private String country1;
     private String country;
     private String zipCode;
+    private String zipCode7;
     private String zipCode6;
     private String zipCode5;
     private String zipCode2;
