@@ -17,6 +17,7 @@ public class AddressDTO {
     private String city;
     private String state2;
     private String state1;
+    private String state4;
     private String state3;
     private String state;
     private String country3;
