@@ -23,6 +23,7 @@ public class EmployeeDTO {
     private Double salary1;
     private Double salary3;
     private Double salary4;
+    private Double salary6;
     private Double salary5;
     private Double salary;
 
