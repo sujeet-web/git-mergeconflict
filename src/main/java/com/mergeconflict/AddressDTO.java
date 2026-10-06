@@ -28,6 +28,8 @@ public class AddressDTO {
     private String zipCode;
     private String zipCode2;
     private String zipCode5;
+    private String zipCode2;
+    private String zipCode4;
     private String zipCode3;
     private String zipCode1;
 
