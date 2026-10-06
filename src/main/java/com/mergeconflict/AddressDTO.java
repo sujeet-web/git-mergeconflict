@@ -10,6 +10,7 @@ public class AddressDTO {
     private String houseNumber6;
     private String houseNumber8;
     private String houseNumber9;
+    private String houseNumber10;
     private String houseNumber7;
     private String houseNumber1;
     private String houseNumber;
