@@ -21,6 +21,7 @@ public class AddressDTO {
     private String street1;
     private String street;
     private String street3;
+    private String street30:
     private String city1;
     private String city2;
     private String city;
