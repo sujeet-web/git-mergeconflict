@@ -29,19 +29,9 @@ public class AddressDTO {
     private String state4;
     private String state3;
     private String state;
-    private String country3;
-    private String country4;
-    private String country2;
-    private String country1;
     private String country;
     private String zipCode;
-    private String zipCode7;
-    private String zipCode6;
-    private String zipCode5;
-    private String zipCode2;
-    private String zipCode4;
-    private String zipCode3;
-    private String zipCode1;
+  
 
     public AddressDTO() {
     }
